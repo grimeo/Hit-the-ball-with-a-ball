@@ -14,7 +14,9 @@ let spawnballs = []
 
 let eballs = []
 eballs.push(new EvadingBall(eballColor, 450) );
+eballs.push(new EvadingBall(eballColor, 400) );
 eballs.push(new EvadingBall(eballColor, 350) );
+eballs.push(new EvadingBall(eballColor, 300) );
 eballs.push(new EvadingBall(eballColor, 250) );
 
 let animate = () => {
