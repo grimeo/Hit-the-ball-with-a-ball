@@ -7,7 +7,8 @@ export default class RunningBall {
     }
     update(){
         this.x += 5;
-        if(this.x > 500){this.deleteMark = true}
+        if(this.x > 520){this.deleteMark = true}
+        
     }
     draw(ctx, color){
         ctx.beginPath()
